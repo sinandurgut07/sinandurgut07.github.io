@@ -170,7 +170,7 @@ ul {
     font-weight: 500;
     line-height: 1px;
     text-transform: capitalize;
-    letter-spacing: 8px;
+   /* letter-spacing: 8px;*/
     margin-top: 10px; }
 
 .navbar-default {
@@ -300,11 +300,11 @@ ul {
     width: 510px;
     height: 510px;
     overflow: hidden;
-    padding: 30px;
     border: 4px solid #ffdfcb;
     margin: 0 auto;
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    background: #fff }
     .banner-area .bannder-content .profile-img:after {
       content: '';
       position: absolute;
@@ -321,6 +321,11 @@ ul {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
+      .pImage {
+        display: block; width: 100%; height: 100%; margin: 0;
+        background-image: url('../images/profile_photo.png');
+        background-size: cover;
+      }
   .banner-area .bannder-content .profile-name {
     margin-top: 58px; }
     .banner-area .bannder-content .profile-name h1 {
@@ -1081,7 +1086,7 @@ ul {
     transform: scale(1); } }
 
   .pp {
-    width: 448px;
-    height: 449px;
+    width: auto;
+    height: auto;
     border-radius: 448px;
   }
